@@ -7,6 +7,19 @@
 	<name>Packet Tracking API</name>
 	<version>1.2</version>
 
+    <distributionManagement>
+        <repository>
+            <id>tubav-pt</id>
+            <name>tubav repository</name>
+            <url>https://services.av.tu-berlin.de/nexus/content/repositories/packettracking/</url>
+        </repository>
+        <snapshotRepository>
+            <id>pt-tubav</id>
+            <name>tubav repository</name>
+            <url>https://services.av.tu-berlin.de/nexus/content/repositories/packettracking/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
 	<build>
 		<plugins>
 			<plugin>
