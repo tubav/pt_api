@@ -1,24 +1,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>de.fhg.fokus.net</groupId>
 	<artifactId>pt-api</artifactId>
 	<name>Packet Tracking API</name>
-	<version>1.1.2</version>
-  <distributionManagement>
-    <repository>
-      <id>pt</id>
-      <url>${pt.releases.repo.url}</url>
-    </repository>
-    <snapshotRepository>
-      <id>pt</id>
-      <url>${pt.snapshots.repo.url}</url>
-    </snapshotRepository>
-    <site>
-      <id>pt-site</id>
-      <url>${pt.site.deploy.url}</url>
-    </site>
-  </distributionManagement>
+	<version>1.2</version>
+
 	<build>
 		<plugins>
 			<plugin>
@@ -31,4 +19,6 @@
 			</plugin>
 		</plugins>
 	</build>
+
+	<description>Shared API for Matcher and Netview communication.</description>
 </project>
